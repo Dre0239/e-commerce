@@ -1,5 +1,5 @@
 {
-  "name": "mern-project-template",
+  "name": "mern-shopping",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -15,8 +15,6 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  },
-  "engines": {
-    "node": "16.19.1"
   }
 }
+
