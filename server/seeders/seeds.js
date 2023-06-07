@@ -18,110 +18,110 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
+      name: 'Sees Candy',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+        'An irresistible mixture of best-selling creamy, nutty, chewy and soft center favorites wrapped in Sees rich milk and dark chocolates.',
       image: 'cookie-tin.jpg',
       category: categories[0]._id,
-      price: 2.99,
+      price: 30.00,
       quantity: 500
     },
     {
-      name: 'Canned Coffee',
+      name: 'Matcha Green tea',
       description:
-        'Praesent sed lacinia mauris. Nulla congue nibh magna, at feugiat nunc scelerisque quis. Donec iaculis rutrum vulputate. Suspendisse lectus sem, vulputate ac lectus sed, placerat consequat dui.',
+        'Matcha is a high-grade green tea ground into powdered form. The green tea powder is whisked into hot water, instead of steeped, to form a frothy drink. The meditative act of preparing, presenting, and sipping matcha is the backbone of the Japanese tea ceremony',
       image: 'canned-coffee.jpg',
       category: categories[0]._id,
-      price: 1.99,
+      price: 5.99,
       quantity: 500
     },
     {
-      name: 'Toilet Paper',
+      name: 'Charmin Toilet ',
       category: categories[1]._id,
       description:
-        'Donec volutpat erat erat, sit amet gravida justo sodales in. Phasellus tempus euismod urna. Proin ultrices nisi ut ipsum congue, vitae porttitor libero suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam lacinia a nisi non congue.',
+        'Sheer comfort and excellent durability combined make Charmin Ultra Soft the best toilet paper to use every day.',
       image: 'toilet-paper.jpg',
       price: 7.99,
       quantity: 20
     },
     {
-      name: 'Handmade Soap',
+      name: 'SoftSoap',
       category: categories[1]._id,
       description:
-        'Praesent placerat, odio vel euismod venenatis, lectus arcu laoreet felis, et fringilla sapien turpis vestibulum nisl.',
+        'Softsoap® Antibacterial Liquid Hand Soap, Crisp Clean is clinically proven to eliminate "99.9%" of bacteria leaving your skin feeling clean and protected.',
       image: 'soap.jpg',
-      price: 3.99,
+      price: 1.99,
       quantity: 50
     },
     {
-      name: 'Set of Wooden Spoons',
+      name: 'Home Hero 44-pcs Kitchen Utensils Set ',
       category: categories[1]._id,
       description:
-        'Vivamus ut turpis in purus pretium mollis. Donec turpis odio, semper vel interdum ut, vulputate at ex. Duis dignissim nisi vel tortor imperdiet finibus. Aenean aliquam sagittis rutrum.',
+        'High quality that lasts - These kitchen gadgets are made to stand the test of time. Top of the range 430 stainless steel handles provide greater durability than other plastic kitchen utensil sets',
       image: 'wooden-spoons.jpg',
-      price: 14.99,
+      price: 69.99,
       quantity: 100
     },
     {
-      name: 'Camera',
+      name: 'RAV Tripod',
       category: categories[2]._id,
       description:
-        'Vestibulum risus metus, luctus non tortor quis, tincidunt consectetur ex. Nullam vitae lobortis ligula, ut sagittis massa. Curabitur consectetur, tellus at pulvinar venenatis, erat augue cursus erat, eu ullamcorper eros lectus ultrices ipsum. Integer rutrum, augue vitae auctor venenatis, turpis turpis elementum orci, at sagittis risus mi a leo.',
+        'It is foldable and easy to carry. It has good stability due to the silicone caps on the floor part of the stand. Other caps made of the polyester cord will also defend the instrument from scratches while being installed. The stand is adjustable thanks to the belts that set the Tripod according to the drums diameter.',
       image: 'camera.jpg',
-      price: 399.99,
+      price: 99.00,
       quantity: 30
     },
     {
-      name: 'Tablet',
+      name: '85" Class QN900C Samsung Neo QLED 8K Smart TV (2023)',
       category: categories[2]._id,
       description:
-        'In sodales, ipsum quis ultricies porttitor, tellus urna aliquam arcu, eget venenatis purus ligula ut nisi. Fusce ut felis dolor. Mauris justo ante, aliquet non tempus in, tempus ac lorem. Aliquam lacinia dolor eu sem eleifend ultrices. Etiam mattis metus metus. Sed ligula dui, placerat non turpis vitae, suscipit volutpat elit. Phasellus sagittis, diam elementum suscipit fringilla, libero mauris scelerisque ex, ac interdum diam erat non sapien.',
+        'The Infinity Screen with Slim One Connect provides edge-to-edge 8K picture that defies limits and redefines expectations.See worlds within worlds with unparalleled 8K precision made possible by a universe of tiny lights with Quantum Matrix Pro with Mini LEDs.',
       image: 'tablet.jpg',
-      price: 199.99,
-      quantity: 30
+      price: 7999.99,
+      quantity: 500
     },
     {
-      name: 'Tales at Bedtime',
+      name: 'Abiyoyo',
       category: categories[3]._id,
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare diam quis eleifend rutrum. Aliquam nulla est, volutpat non enim nec, pharetra gravida augue. Donec vitae dictum neque. Pellentesque arcu lorem, fringilla non ligula ac, tristique bibendum erat. Ut a semper nibh. Quisque a mi et mi tempor ultricies. Maecenas eu ipsum eu enim hendrerit accumsan at euismod urna.',
+        'A young boy and his father save the town that ostracized them from a hungry giant in this picture book adaptation of a South African lullaby and folk story.',
       image: 'bedtime-book.jpg',
       price: 9.99,
       quantity: 100
     },
     {
-      name: 'Spinning Top',
+      name: 'Mongoose Legion Kids Freestyle BMX Bike, Intermediate Rider, Boys and Girls Bikes, Hi-Ten Steel Frame',
       category: categories[4]._id,
-      description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
+      description: 'L20 is a stylish freestyle BMX bike that offers everything a beginning rider needs to hit the streets and pop off curbs, Suggested rider height is 48-54 Built to last with its Hi-Ten steel frame removable brake mounts',
       image: 'spinning-top.jpg',
-      price: 1.99,
-      quantity: 1000
-    },
-    {
-      name: 'Set of Plastic Horses',
-      category: categories[4]._id,
-      description:
-        'Sed a mauris condimentum, elementum enim in, rhoncus dui. Phasellus lobortis leo odio, sit amet pharetra turpis porta quis.',
-      image: 'plastic-horses.jpg',
-      price: 2.99,
-      quantity: 1000
-    },
-    {
-      name: 'Teddy Bear',
-      category: categories[4]._id,
-      description:
-        'Vestibulum et erat finibus erat suscipit vulputate sed vitae dui. Ut laoreet tellus sit amet justo bibendum ultrices. Donec vitae felis vestibulum, congue augue eu, finibus turpis.',
-      image: 'teddy-bear.jpg',
-      price: 7.99,
+      price: 300.99,
       quantity: 100
     },
     {
-      name: 'Alphabet Blocks',
+      name: 'Hot-Wheels',
       category: categories[4]._id,
       description:
-        'Morbi consectetur viverra urna, eu fringilla turpis faucibus sit amet. Suspendisse potenti. Donec at dui ac sapien eleifend hendrerit vel sit amet lectus.',
+        'Hot Wheels is an American brand of scale model cars introduced by American toymaker Mattel in 1968. It was the primary competitor of Matchbox until 1997, when Mattel bought Tyco Toys, then owner of Matchbox.',
+      image: 'plastic-horses.jpg',
+      price: 13.99,
+      quantity: 1000
+    },
+    {
+      name: 'Barbie Dreamhouse',
+      category: categories[4]._id,
+      description:
+        'Doll House Playset with 70+ Accessories Including Transforming Furniture, Elevator, Slide, Lights & Sounds',
+      image: 'teddy-bear.jpg',
+      price: 224.99,
+      quantity: 100
+    },
+    {
+      name: 'LEGO',
+      category: categories[4]._id,
+      description:
+        'Lego, consists of variously colored interlocking plastic bricks made of acrylonitrile butadiene styrene that accompany an array of gears, figurines called minifigures, and various other parts.',
       image: 'alphabet-blocks.jpg',
-      price: 9.99,
+      price: 199.99,
       quantity: 600
     }
   ]);
