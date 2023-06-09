@@ -123,6 +123,71 @@ db.once('open', async () => {
       image: 'Lego.jpeg',
       price: 199.99,
       quantity: 600
+    },
+    {
+      name: 'JUST TRY ONE BITE',
+      category: categories[3]._id,
+      description:'An instant New York Times bestseller! From the bestselling author of Go the **** to Sleep and healthy eating advocate Camila Alves McConaughey comes a whimsical role reversal in which picky eater parents are confronted by their three kids, with hilarious results',
+      image: 'justtry.png',
+      price: 17.99,
+      quantity: 600
+    },
+    {
+      name: 'The Luck Puppy',
+      category: categories[3]._id,
+      description:'Books For Kids: The Lucky Puppy: Bedtime Stories For Kids Ages 3-8 (Kids Books - Bedtime Stories For Kids - Children',
+      image: 'theluckpuppy.png',
+      price: 19.99,
+      quantity: 600
+    },
+    {
+      name: 'Charlottes Web',
+      category: categories[3]._id,
+      description: 'The novel tells the story of a livestock pig named Wilbur and his friendship with a barn spider named Charlotte. When Wilbur is in danger of being slaughtered by the farmer, Charlotte writes messages praising Wilbur such as "Some Pig" and "Humble" in her web in order to persuade the farmer to let him live.',
+      image: 'web.png',
+      price: 19.99,
+      quantity: 600
+    },
+    {
+      name: 'Canon EOS 5D Mark IV DSLR Camera',
+      category: categories[2]._id,
+      description:
+        'Canon EOS 5D Mark IV DSLR Camera with 24-105mm f/4L II Lens',
+      image: 'camera.png',
+      price: 3299.95,
+      quantity: 600
+    },
+    {
+      name: 'iPad Pro',
+      category: categories[2]._id,
+      description: 'The iPad is a touchscreen tablet PC made by Apple . The original iPad debuted in 2010. Apple has three iPad product lines: iPad, iPad mini and iPad Pro. All models are available in silver, gray and gold.',
+      image: 'ipad.png',
+      price: 1399.99,
+      quantity: 600
+    },
+    {
+      name: 'Oreos',
+      category: categories[0]._id,
+      description:'The Oreo is a cookie sandwich or cream biscuit. It is made by the Nabisco division of Mondelēz International. The cookie has a sweet, white filling of "creme" or "cream". The creme is in between two circle-shaped chocolate or golden cookie pieces.',
+      image: 'oreos.png',
+      price: 8.99,
+      quantity: 600
+    },
+    {
+      name: 'Natural Banana',
+      category: categories[0]._id,
+      description:'Clean Field Farming is how we ensure our purees are not only nutritious, but also wholesome and safe for every tiny tummy.',
+      image: 'Natural_Banana.png',
+      price: 10.99,
+      quantity: 600
+    },
+    {
+      name: 'OSOTEK Horizon H200 Wet Dry Vacuum',
+      category: categories[1]._id,
+      description: '180° Horizontally Reclining Design Innovative track wheel roller brush Water and Air Separation Technology',
+      image: 'Vaccum.png',
+      price: 508.99,
+      quantity: 600
     }
   ]);
 
