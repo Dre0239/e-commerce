@@ -19,6 +19,8 @@
   },
   "engines": {
     "node": "16.19.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
   }
 }
-
